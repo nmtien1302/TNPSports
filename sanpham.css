@@ -1,0 +1,171 @@
+/* CSS cho phần sản phẩm (giữ nguyên) */
+
+.all{
+    color: rgb(8, 0, 124);
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin: 40px 15px 20px;
+}
+
+.tenanh{
+    padding: 10px 0 10px;
+}
+
+.kho{
+    font-size: 15px;
+    padding: 10px 0 auto;
+    color: #5b5b5b;
+}
+.sptonghop {
+    display: flex;
+    gap: 20px;
+    justify-self: center;
+    align-items: center;
+    padding: 50px;
+    border: 15px solid;
+    border-image: linear-gradient(to right, rgb(8, 0, 124), rgb(12, 196, 2)) 1;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    background: linear-gradient(45deg, #8ce5f7 0%, #6dffb4 100%);   
+    transition: 1s ease;
+    animation: float 2s ease-in-out infinite; /*nếu để ngoài thì di chuột mới bắt đầu kích effect*/
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.sptonghop :hover{
+    transform: scale(1.05);
+}
+.tien{
+    font-weight: bolder;
+    width: 300px;
+    height:300px;
+    text-align: center;
+    border: 1.5px solid #8e3600;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.tien img{
+    width: 270px;
+    height:270px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.item.main {
+    margin: 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;       /* Cho phép tự động xuống dòng nếu hẹp */
+    width: 1000px;
+    margin: auto;          /* Căn giữa toàn khối */
+}
+
+.banner {
+    margin: 20px 0 20px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.banner img{
+    width: auto;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+.theloai {
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    font-family: 'Times New Roman', Times, serif;
+    width: 210px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.sanpham {
+    
+    border: 10px solid;
+    border-color: aquamarine;
+    padding: 30px 0 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+    overflow: hidden;
+}
+
+.tien1 {
+    width: 220px;
+    text-align: center;
+    border: 2px solid #1d0000;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.anh img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.anh img:hover{
+    transform: scale(1.05);
+}
+.tenanh {
+    margin: 5px 0;
+}
+
+.giatien { 
+    color: rgb(144, 0, 0);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.giatienb{
+    color: rgb(0, 0, 0);
+    text-decoration: line-through;
+    margin-bottom: 5px;
+}
+
+.buy { 
+    /*Mua ngay*/
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); 
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline;
+    cursor: pointer;
+}
+.tieude{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   color: aliceblue;
+}
+
+

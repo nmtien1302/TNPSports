@@ -1,0 +1,16 @@
+.zalo-sticky {
+  position: fixed;       
+  bottom: 20px;         
+  right: 20px;         
+  cursor: pointer;     
+}
+.zalo-sticky img {
+  width: 60px;           
+  height: auto;
+  transition: 1s ease; 
+}
+  
+.zalo-sticky img:hover {
+  transform: scale(1.1);  
+}
+

@@ -1,0 +1,31 @@
+
+footer {
+    background: linear-gradient(to right,  #000000,  #a1a1a1);
+    margin-top: 15px;
+    display: flex;
+    max-width: auto;
+    justify-content: center; 
+    align-items: center;      
+}
+.thongtin {
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+.info{
+    
+    margin: 10px auto 15px;
+    min-width: 220px;
+}
+
+.diachi a{
+    color: 	#0099bf;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.camket img{
+    margin: auto;
+    width: 200px;
+}
+
